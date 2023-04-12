@@ -16,21 +16,24 @@ body{
     width: 4vw;
 }
 .container{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 90vh;
     background-color: white;
-
+    border-radius: 10px;
 }
-.content {
+/* .content {
     width: 50%;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 10px; 
     box-shadow: 0px 5px 10px 10px hsl(205, 33%, 90%);
-    margin: 3rem;
+     margin: 3rem;
 
-}
+} */
 .header {
     display: flex;
     max-width: 100%;
@@ -44,6 +47,7 @@ body{
 }
 .header h2 {
     width: 80%;
+    color: hsl(219, 81%, 17%);
 }
 .header p:hover {
     cursor: pointer;
@@ -51,7 +55,7 @@ body{
 }
 
 #notif {
-    background-color: blue;
+    background-color: hsl(219, 81%, 17%); 
     color: white;
     padding: 0px 8px;
     border-radius: 5px;
@@ -106,6 +110,7 @@ body{
     display: inline-block;
     border-radius: 50%;
     margin-left: 5px;
+    background-color: red;
 }
 .notif-text {
     color: hsl(219, 12%, 42%);
@@ -136,79 +141,65 @@ body{
 }
 .read img{
     width: 6vw;
-     /* margin-left: 50px;  */
+   
 
 }
  .wrapper{
    display: flex;
    gap: 11vw;
-   /* justify-content: space-between;  */
+  
 } 
 .footer{
     text-align: center;
+    margin-top: 20px;
 }
 
-@media only screen and (max-width:800px){
-    body{
-        background: #000;
-        font-size: 13px;
+
+@media (max-width: 414px) {
+    .container{
+        background-color: none;
+        height: 90vh;
+        width: 100vw; 
     }
-    .profilePic img{
-        width: 10vw;
-    }
-    .text {
+    .notification {
        
-        font-size: 12px;
-        color: rgb(158, 157, 157);
-    }
-    .notif-text{
-        font-size: 12px;
-    }
-    .message p{
-        font-size: 12px;
-    }
-    .read img{
-        width: 10vw;
-         /* margin-left: 50px;  */
+     margin-bottom: 20px;
+   
     
     }
+    
+ .unread {
+    height: 70px;
+
+ }
+ .wrap {
+    height: 70px;
+  
+ }
+ .profilePic img{
+    width: 50px;
 }
-/* @media (max-width: 900px) {
-    .content {
-        width: 100%;
-        margin: 0;
-    }
-
-    .head h2 {
-        font-size: 20px;
-    }
-
-} */
-
-/* @media (max-width: 540px) {
-
-    .head h2,
-    .head p {
-        width: 50%;
-    }
-
-    .head p {
-        text-align: right;
-    }
+.read img{
+    width: 50px;
+}
+.header h2{
+    color: hsl(219, 81%, 17%);
+    font-weight: 900;
+    font-size: 18px;
+}
+#notif{
+    background-color: hsl(219, 81%, 17%); 
+}
+#markRead{
+    color: hsl(219, 12%, 42%);
+    font-weight: bolder;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.footer{
+    margin-top: 20px;
+}
+    
+    
 
 }
-
-@media (max-width: 410px) {
-    * {
-        font-size: 10px;
-    }
-
-    .head h2 {
-        font-size: 14px;
-    }
-
-    .head p {
-        font-size: 10px;
-    }
-
-} */
