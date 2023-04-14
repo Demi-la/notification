@@ -81,6 +81,7 @@ body{
     display: flex;
     align-items: center;
     background-color: hsl(210, 60%, 98%);
+    margin-top: 10px;
 }
 .profilePic,
 .message,
@@ -134,7 +135,7 @@ body{
     display: block;
 }
 .read img{
-    width: 6vw;
+    width: 5vw;
    
 
 }
@@ -143,9 +144,13 @@ body{
    gap: 11vw;
   
 } 
+.wrap {
+    margin-top: 15px;
+  
+ }
 .footer{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -191,7 +196,7 @@ body{
     white-space: nowrap;
 }
 .footer{
-    margin-top: 20px;
+    margin-top: 30px;
 }
     
     
