@@ -1,30 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: hsl(210, 60%, 98%);
-    padding: 1.25rem;
-    font-family:sans-serif;
-    background-size: cover;
-    
-    
+body {
+  background-color: hsl(210, 60%, 98%);
+  padding: 1.25rem;
+  font-family: sans-serif;
+  background-size: cover;
 }
-.profilePic img{
-    width: 4vw;
+.profilePic img {
+  width: 4vw;
 }
-.container{
-    /* display: flex;
+.container {
+  /* display: flex;
     align-items: center;
     justify-content: center; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 100vh;
-    background-color: white;
-    border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+  border-radius: 10px;
 }
 /* .content {
     width: 50%;
@@ -35,170 +33,153 @@ body{
 
 } */
 .header {
-    display: flex;
-    max-width: 100%;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  max-width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
-.header p{
-    max-width: 100%;
-    font-size: 14px;
+.header p {
+  max-width: 100%;
+  font-size: 14px;
 }
 .header h2 {
-    width: 80%;
-    color: hsl(219, 81%, 17%);
+  width: 80%;
+  color: hsl(219, 81%, 17%);
 }
 .header p:hover {
-    cursor: pointer;
-    color: hsl(219, 85%, 26%);
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
 }
 
 #notif {
-    background-color: hsl(219, 81%, 17%); 
-    color: white;
-    padding: 0px 8px;
-    border-radius: 5px;
- }
+  background-color: hsl(219, 81%, 17%);
+  color: white;
+  padding: 0px 8px;
+  border-radius: 5px;
+}
 
-.message{
-    
-    margin-left: 40px;
+.message {
+  margin-left: 40px;
 }
 .notification {
-    display: flex;
-    
-    max-width: 100%;
-    margin: 5px 1rem;
-    border-radius: 5px;
+  display: flex;
+
+  max-width: 100%;
+  margin: 5px 1rem;
+  border-radius: 5px;
 }
 .notification:hover {
-    background-color: hsl(211, 68%, 94%);
-    cursor: pointer;
+  background-color: hsl(211, 68%, 94%);
+  cursor: pointer;
 }
 
 .unread {
-    display: flex;
-    align-items: center;
-    background-color: hsl(210, 60%, 98%);
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(210, 60%, 98%);
+  margin-top: 10px;
 }
 .profilePic,
 .message,
 .read {
-    max-width: 100%;
-
-
+  max-width: 100%;
 }
 
-
-.name{
-    font-weight: 800;
+.name {
+  font-weight: 800;
 }
-.name:hover{
-    cursor: pointer;
-     color: hsl(219, 85%, 26%);
+.name:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
 }
-.dot{
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    border-radius: 50%;
-    margin-left: 5px;
-    background-color: red;
+.dot {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: red;
 }
 .notif-text {
-    color: hsl(219, 12%, 42%);
+  color: hsl(219, 12%, 42%);
 }
 .notif-text:hover {
-    cursor:pointer;
-    color: hsl(219, 85%, 26%);
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
 }
 .text {
-    border: 1px solid lightgray;
-    background-color: white;
-    padding: 10px;
-    border-radius: 3px;
-    margin-top: 20px;
-    border-radius: 2px;
-    font-size: 15px;
-    color: rgb(158, 157, 157);
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 20px;
+  border-radius: 2px;
+  font-size: 15px;
+  color: rgb(158, 157, 157);
 }
 .text:hover {
-    background-color: hsl(211, 68%, 94%);
-    cursor: pointer;
+  background-color: hsl(211, 68%, 94%);
+  cursor: pointer;
 }
 
 .message {
-    width: 80%;
-    font-size: 14px;
-    display: block;
+  width: 80%;
+  font-size: 14px;
+  display: block;
 }
-.read img{
-    width: 5vw;
-   
-
+.read img {
+  width: 5vw;
 }
- .wrapper{
-   display: flex;
-   gap: 11vw;
-  
-} 
+.wrapper {
+  display: flex;
+  gap: 11vw;
+}
 .wrap {
-    margin-top: 15px;
-  
- }
-.footer{
-    text-align: center;
-    margin-top: 20px;
+  margin-top: 15px;
 }
-
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
 
 @media (max-width: 414px) {
-    .container{
-        background-color: none;
-        height: 90vh;
-        width: 100vw; 
-    }
-    .notification {
-       
-     margin-bottom: 20px;
-   
-    
-    }
-    
- .unread {
-    height: 70px;
+  .container {
+    background-color: none;
+    height: 100%;
+    width: 100%;
+  }
+  .notification {
+    margin-bottom: 20px;
+  }
 
- }
- .wrap {
+  .unread {
     height: 70px;
-  
- }
- .profilePic img{
+  }
+  .wrap {
+    height: 70px;
+  }
+  .profilePic img {
     width: 50px;
-}
-.read img{
+  }
+  .read img {
     width: 50px;
-}
-.header h2{
+  }
+  .header h2 {
     color: hsl(219, 81%, 17%);
     font-weight: 900;
     font-size: 18px;
-}
-#notif{
-    background-color: hsl(219, 81%, 17%); 
-}
-#markRead{
+  }
+  #notif {
+    background-color: hsl(219, 81%, 17%);
+  }
+  #markRead {
     color: hsl(219, 12%, 42%);
     font-weight: bolder;
     font-size: 12px;
     white-space: nowrap;
-}
-.footer{
-    margin-top: 30px;
-}
-    
-    
-
+  }
+  .footer {
+    margin-top: 2rem;
+  }
 }
